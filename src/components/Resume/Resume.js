@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/ENSTG_FINAL.pdf";
+import pdf from "../../Assets/TGResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { FaBriefcase, FaGraduationCap, FaTrophy } from "react-icons/fa";
 import ReactGA from "react-ga";
@@ -100,17 +100,6 @@ function Resume() {
                 "Achievements: Got 576 rank in AP-EAMCET, also achieved 25000 rank across all over the India in IIT JEE Mains"
               ]}
             />
-            {/* <Resumecontent
-              title="Leadership & Recognition"
-              content={[
-                "First place in Technical Paper Presentation at VCET Oscillation",
-                "Chairperson, NSDC Student Chapter at VCET",
-                "Pioneered the establishment of the NSDC student chapter and led its first-year activities",
-                "Launched and organized Tech Blitz, an intercollege AI-based challenge event",
-                "Coordinated multiple technical and non-technical events, fostering a collaborative and innovative environment"
-                
-              ]}
-            /> */}
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative", marginTop: "30px" }}>
