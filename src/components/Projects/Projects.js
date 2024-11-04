@@ -8,7 +8,7 @@ import weather from "../../Assets/Projects/weather.png";
 import ges from "../../Assets/Projects/gesture.png";
 import ttt from "../../Assets/Projects/tic-tac-toe.png";
 import space from "../../Assets/Projects/space.png";
-// import easyCode from "../../Assets/Projects/easy-code.png";
+import expenseTrackerImage from "../../Assets/Projects/expense.png"
 import ReactGA from "react-ga";
 
 function Projects() {
@@ -38,17 +38,6 @@ function Projects() {
 
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={easyCode}
-              isBlog={false}
-              title="easy-code"
-              description="Easy code is my personal blog website which is build with nextjs. It has great support of the Markdown content. Easy-code is fully responsive blog website which has light and dark mode support."
-              link="https://github.com/MohitSojitra/easy-code"
-              liveLink="https://blog.mohitsojitra.tech/"
-            />
-          </Col> */}
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={cap}
@@ -73,6 +62,18 @@ function Projects() {
             />
 
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={expenseTrackerImage}
+              isBlog={false}
+              title="Personal Expense Tracker"
+              description="Developed a Java-based Personal Expense Tracker application to help users manage and monitor their expenses efficiently. The application includes features for adding expenses with categories, amounts, and descriptions. Users can view a summarized report of their total expenses compared to their monthly budget and see a breakdown of expenses by category. Built using core Java concepts like OOP (Object-Oriented Programming) and implemented with a user-friendly Swing-based GUI, the application supports essential functionalities without relying on external libraries. Ideal for budgeting and personal finance management, the Expense Tracker offers a clean, interactive interface for users to track spending within defined limits."
+              link="https://github.com/tarunganesh2004/Expense-Tracker-Using-OOPS"
+              liveLink=""
+            />
+          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
