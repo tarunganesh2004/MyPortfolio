@@ -47,10 +47,10 @@ function About() {
           <strong className="purple">Tools </strong> 
         </h1>
         <Toolstack />
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           <strong className="purple">Digital Footprint</strong>
-        </h1>
-        <Github />
+        </h1> */}
+        {/* <Github /> */}
       </Container>
     </Container>
   );
