@@ -100,7 +100,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://leetcode.com/u/nagasai2004/"
+                href="https://leetcode.com/u/enstg123/"
                 target="_blank"
                 rel="noreferrer"
               >
