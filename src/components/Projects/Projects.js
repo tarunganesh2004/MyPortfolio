@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
+import covid from "../../Assets/Projects/covid.png";
 import cap from "../../Assets/Projects/caption.png";
 import weather from "../../Assets/Projects/weather.png";
 import ges from "../../Assets/Projects/gesture.png";
@@ -26,6 +26,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={covid}
+              isBlog={false}
+              title="Predictive Modelling For Epidemic Outbreaks"
+              description="Implemented machine learning models to predict cumulative COVID-19 cases using historical data. The project involved data preprocessing, feature extraction, and building sophisticated models including Bidirectional LSTM, Transformer, and Bidirectional GRU. Achieved the highest accuracy with Bidirectional LSTM, evaluated using metrics like RMSE, MAE, MAPE, and R2 score. Visualized predictions and real instances through interactive plots. The project demonstrates expertise in predictive modeling, data analysis, and developing solutions to address public health challenges."
+              link="https://github.com/tarunganesh2004/Predictive-Modeling-For-epidemic-outbreaks"
+              liveLink=""
+            />
+
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ges}
