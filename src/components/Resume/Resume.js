@@ -87,7 +87,7 @@ function Resume() {
               date="Dec 2021 - May 2025"
               content={[
                 "Developed a strong foundation in computer science while specializing in the dynamic field of Artificial Intelligence and Machine Learning. Acquired comprehensive knowledge and practical skills in areas such as machine learning, deep learning, and natural language processing",
-                "CGPA: 8.85/10",
+                "CGPA: 8.89/10",
               ]}
             />
             
