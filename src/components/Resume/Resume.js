@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 // @ts-ignore
-import pdf from "../../Assets/TGResume.pdf";
+import pdf from "../../Assets/Tarun_Ganesh_new_resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { FaBriefcase, FaGraduationCap, FaTrophy } from "react-icons/fa";
 import ReactGA from "react-ga";
@@ -87,7 +87,7 @@ function Resume() {
               date="Dec 2021 - May 2025"
               content={[
                 "Developed a strong foundation in computer science while specializing in the dynamic field of Artificial Intelligence and Machine Learning. Acquired comprehensive knowledge and practical skills in areas such as machine learning, deep learning, and natural language processing",
-                "CGPA: 8.85/10",
+                "CGPA: 8.99/10",
               ]}
             />
             

@@ -9,6 +9,7 @@ import ges from "../../Assets/Projects/gesture.png";
 import ttt from "../../Assets/Projects/tic-tac-toe.png";
 import space from "../../Assets/Projects/space.png";
 import expenseTrackerImage from "../../Assets/Projects/expense.png"
+import iotimage from "../../Assets/Projects/Iot.jpg"
 import ReactGA from "react-ga";
 
 function Projects() {
@@ -26,6 +27,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={iotimage}
+              isBlog={false}
+              title="IoT Network Traffic Detection"
+              description="Developed an IoT network traffic detection system using the ACI IoT 2023 dataset. The project involved data preprocessing, feature selection based on importance, standardization, and label encoding. Built and compared multiple machine learning models including TabNet, ResNet, Autoencoder, and MLP. Achieved the highest accuracy of 98% with TabNet, evaluated through Confusion Matrix, ROC and Precision–Recall curves. Deployed the final TabNet model along with scaler and label encoder for custom input predictions. This project highlights expertise in IoT security, machine learning model development, and building robust, high-accuracy intrusion detection solutions."
+              link="https://github.com/tarunganesh2004/IOT-Network-Traffic-Detection"
+              liveLink=""
+            />
+
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={covid}
@@ -47,6 +59,17 @@ function Projects() {
               liveLink=""
             />
 
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={expenseTrackerImage}
+              isBlog={false}
+              title="Personal Expense Tracker"
+              description="Developed a Java-based Personal Expense Tracker application to help users manage and monitor their expenses efficiently. The application includes features for adding expenses with categories, amounts, and descriptions. Users can view a summarized report of their total expenses compared to their monthly budget and see a breakdown of expenses by category. Built using core Java concepts like OOP (Object-Oriented Programming) and implemented with a user-friendly Swing-based GUI, the application supports essential functionalities without relying on external libraries. Ideal for budgeting and personal finance management, the Expense Tracker offers a clean, interactive interface for users to track spending within defined limits."
+              link="https://github.com/tarunganesh2004/Expense-Tracker-Using-OOPS"
+              liveLink=""
+            />
           </Col>
 
           <Col md={4} className="project-card">
@@ -74,16 +97,7 @@ function Projects() {
 
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={expenseTrackerImage}
-              isBlog={false}
-              title="Personal Expense Tracker"
-              description="Developed a Java-based Personal Expense Tracker application to help users manage and monitor their expenses efficiently. The application includes features for adding expenses with categories, amounts, and descriptions. Users can view a summarized report of their total expenses compared to their monthly budget and see a breakdown of expenses by category. Built using core Java concepts like OOP (Object-Oriented Programming) and implemented with a user-friendly Swing-based GUI, the application supports essential functionalities without relying on external libraries. Ideal for budgeting and personal finance management, the Expense Tracker offers a clean, interactive interface for users to track spending within defined limits."
-              link="https://github.com/tarunganesh2004/Expense-Tracker-Using-OOPS"
-              liveLink=""
-            />
-          </Col>
+          
 
 
           <Col md={4} className="project-card">
